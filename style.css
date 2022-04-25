@@ -62,3 +62,17 @@ body {
 .carousel-item .btn:hover {
   border-color: var(--pink) !important;
 }
+
+/* title */
+.title h2::before {
+  position: absolute;
+  content: "";
+  width: 4px;
+  height: 50px;
+  background-color: var(--pink);
+  left: -20px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
