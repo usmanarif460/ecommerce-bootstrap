@@ -59,7 +59,7 @@
       <div x-data="products" class="grid md:grid-cols-3 gap-6 px-6">
         <template x-for="card in products">
           <div
-            class="hover:cursor-pointer px-6 py-3 md:shadow-xl flex flex-col gap-4 items-center rounded-md justify-center"
+            class="hover:cursor-pointer border-b-2 border-stone-300 md:border-0 px-6 py-3 md:shadow-xl flex flex-col gap-4 items-center md:rounded-md justify-center"
           >
             <img :src="card.image" alt="" class="h-[75%]" />
             <div class="text-center">
