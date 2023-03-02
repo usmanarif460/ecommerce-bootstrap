@@ -4,7 +4,7 @@ const products = [
     title: "ANYLUV Blue Light Blocking Glasses Men",
     description:
       "Gaming Blue Screen Glasses Mens Blue Light Blocker Glasses Rectangle Metal frame UV400 Clear Lens",
-    checkout: "https://amazon.to/3Z0pgsm",
+    checkout: "https://amzn.to/3L6bdxp",
     button: "Details",
   },
 
